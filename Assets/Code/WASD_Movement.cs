@@ -24,12 +24,18 @@ public class WASD_Movement : MonoBehaviour
 
     private void Update()
     {
+        Move();
+    }
+
+    public void Move()
+    {
         float moveX = 0f;
         float moveY = 0f;
 
         if (Input.GetKey(KeyCode.W) && transform.position.y < boundaryTop)
         {
             moveY = +1f;
+            GetComponent<AudioSource>().Play();
         }
         if (Input.GetKey(KeyCode.A) && transform.position.x > boundaryLeft)
         {
