@@ -35,7 +35,6 @@ public class WASD_Movement : MonoBehaviour
         if (Input.GetKey(KeyCode.W) && transform.position.y < boundaryTop)
         {
             moveY = +1f;
-            GetComponent<AudioSource>().Play();
         }
         if (Input.GetKey(KeyCode.A) && transform.position.x > boundaryLeft)
         {

@@ -466,6 +466,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1712282466 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2425678499502550899, guid: 90727104aaec0c647b65613594dc9dbd, type: 3}
+  m_PrefabInstance: {fileID: 1783478675}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1712282471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712282466}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 154dd4de3aa169844aa60b4581493c16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
 --- !u!1001 &1783478675
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -473,6 +491,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -2578202516406196618, guid: 90727104aaec0c647b65613594dc9dbd, type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2578202516406196618, guid: 90727104aaec0c647b65613594dc9dbd, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8e2b6f57e0cedae49933107efefea10d, type: 3}
+    - target: {fileID: -2578202516406196618, guid: 90727104aaec0c647b65613594dc9dbd, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2425678499502550896, guid: 90727104aaec0c647b65613594dc9dbd, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -520,6 +550,10 @@ PrefabInstance:
     - target: {fileID: 2425678499502550899, guid: 90727104aaec0c647b65613594dc9dbd, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2425678499502550902, guid: 90727104aaec0c647b65613594dc9dbd, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90727104aaec0c647b65613594dc9dbd, type: 3}

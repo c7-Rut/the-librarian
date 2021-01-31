@@ -9,9 +9,15 @@ public class PlayerMovement : MonoBehaviour
 
     void Awake()
     {
+
     }
 
     private void Update()
+    {
+        Move();
+    }
+
+    public void Move()
     {
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
